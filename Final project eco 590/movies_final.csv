@@ -1,0 +1,101 @@
+Title,Year,imdbRating,Runtime,Awards,Awards_Count,Genre,Genre_Count
+The Godfather,1972,9.2,175.0,Won 3 Oscars. 31 wins & 31 nominations total,65,"Crime, Drama",2
+Casablanca,1943,8.5,102.0,Won 3 Oscars. 18 wins & 12 nominations total,33,"Drama, Romance, War",3
+Citizen Kane,1941,8.2,119.0,Won 1 Oscar. 16 wins & 13 nominations total,30,"Drama, Mystery",2
+Gone with the Wind,1939,8.2,238.0,Won 8 Oscars. 26 wins & 10 nominations total,44,"Drama, Romance, War",3
+Lawrence of Arabia,1962,8.3,227.0,Won 7 Oscars. 31 wins & 14 nominations total,52,"Adventure, Biography, Drama",3
+The Wizard of Oz,1939,8.1,102.0,Won 2 Oscars. 16 wins & 14 nominations total,32,"Adventure, Family, Fantasy",3
+The Graduate,1967,8.0,106.0,Won 1 Oscar. 22 wins & 17 nominations total,40,"Comedy, Drama, Romance",3
+On the Waterfront,1954,8.1,108.0,Won 8 Oscars. 30 wins & 11 nominations total,49,"Crime, Drama, Thriller",3
+Schindler's List,1994,9.0,195.0,Won 7 Oscars. 91 wins & 49 nominations total,147,"Biography, Drama, History",3
+Singin' in the Rain,1952,8.3,103.0,Nominated for 2 Oscars. 11 wins & 11 nominations total,24,"Comedy, Musical, Romance",3
+It's a Wonderful Life,1946,8.6,130.0,Nominated for 5 Oscars. 11 wins & 7 nominations total,23,"Drama, Family, Fantasy",3
+Sunset Boulevard,1950,8.4,110.0,Won 3 Oscars. 21 wins & 20 nominations total,44,"Drama, Film-Noir",2
+The Bridge on the River Kwai,1957,8.1,161.0,Won 7 Oscars. 30 wins & 7 nominations total,44,"Adventure, Drama, War",3
+Some Like It Hot,1959,8.2,121.0,Won 1 Oscar. 11 wins & 13 nominations total,25,"Comedy, Music, Romance",3
+Star Wars: Episode IV - A New Hope,1977,8.6,121.0,Won 6 Oscars. 70 wins & 31 nominations total,107,"Action, Adventure, Fantasy",3
+All About Eve,1950,8.2,138.0,Won 6 Oscars. 27 wins & 22 nominations total,55,Drama,1
+The African Queen,1951,7.7,105.0,Won 1 Oscar. 7 wins & 9 nominations total,17,"Adventure, Drama, Romance",3
+Psycho,1960,8.5,109.0,Nominated for 4 Oscars. 8 wins & 14 nominations total,26,"Drama, Horror, Mystery",3
+Chinatown,1974,8.1,130.0,Won 1 Oscar. 21 wins & 24 nominations total,46,"Drama, Mystery, Thriller",3
+One Flew Over the Cuckoo's Nest,1975,8.6,133.0,Won 5 Oscars. 38 wins & 15 nominations total,58,Drama,1
+The Grapes of Wrath,1940,8.1,129.0,Won 2 Oscars. 13 wins & 6 nominations total,21,Drama,1
+2001: A Space Odyssey,1968,8.3,149.0,Won 1 Oscar. 18 wins & 14 nominations total,33,"Adventure, Sci-Fi",2
+The Maltese Falcon,1941,7.9,100.0,Nominated for 3 Oscars. 8 wins & 4 nominations total,15,"Crime, Drama, Film-Noir",3
+Raging Bull,1980,8.1,129.0,Won 2 Oscars. 24 wins & 28 nominations total,54,"Biography, Drama, Sport",3
+E.T. the Extra-Terrestrial,1982,7.9,115.0,Won 4 Oscars. 52 wins & 39 nominations total,95,"Adventure, Family, Sci-Fi",3
+Dr. Strangelove,2012,,,N/A,0,"Short, Comedy, Crime",3
+Bonnie and Clyde,1967,7.7,111.0,Won 2 Oscars. 22 wins & 29 nominations total,53,"Action, Biography, Crime",3
+Apocalypse Now,1979,8.4,147.0,Won 2 Oscars. 21 wins & 33 nominations total,56,"Drama, Mystery, War",3
+Mr. Smith Goes to Washington,1939,8.1,129.0,Won 1 Oscar. 8 wins & 12 nominations total,21,"Comedy, Drama",2
+The Treasure of the Sierra Madre,1948,8.2,126.0,Won 3 Oscars. 18 wins & 5 nominations total,26,"Adventure, Drama, Western",3
+Annie Hall,1977,7.9,93.0,Won 4 Oscars. 32 wins & 9 nominations total,45,"Comedy, Romance",2
+The Godfather Part II,1974,9.0,202.0,Won 6 Oscars. 17 wins & 21 nominations total,44,"Crime, Drama",2
+High Noon,1952,7.9,85.0,Won 4 Oscars. 18 wins & 12 nominations total,34,"Drama, Thriller, Western",3
+To Kill a Mockingbird,1962,8.2,129.0,Won 3 Oscars. 14 wins & 16 nominations total,33,"Crime, Drama",2
+Rocky,1976,8.1,120.0,Won 3 Oscars. 23 wins & 23 nominations total,49,"Drama, Sport",2
+The Silence of the Lambs,1991,8.6,118.0,Won 5 Oscars. 71 wins & 50 nominations total,126,"Crime, Drama, Horror",3
+Network,1976,8.1,121.0,Won 4 Oscars. 20 wins & 27 nominations total,51,Drama,1
+The Manchurian Candidate,2004,6.6,129.0,Nominated for 1 BAFTA Award1 win & 12 nominations total,13,"Drama, Mystery, Sci-Fi",3
+American Graffiti,1973,7.4,110.0,Nominated for 5 Oscars. 9 wins & 13 nominations total,27,"Comedy, Drama",2
+Raiders of the Lost Ark,1981,8.4,115.0,Won 4 Oscars. 41 wins & 24 nominations total,69,"Action, Adventure",2
+Vertigo,1958,8.2,128.0,Nominated for 2 Oscars. 9 wins & 8 nominations total,19,"Mystery, Romance, Thriller",3
+Tootsie,1982,7.4,116.0,Won 1 Oscar. 26 wins & 31 nominations total,58,"Comedy, Drama, Romance",3
+Stagecoach,1939,7.8,96.0,Won 2 Oscars. 10 wins & 5 nominations total,17,"Adventure, Drama, Western",3
+Close Encounters of the Third Kind,1977,7.6,138.0,Won 1 Oscar. 16 wins & 40 nominations total,57,"Drama, Sci-Fi",2
+The Philadelphia Story,1940,7.8,112.0,Won 2 Oscars. 9 wins & 5 nominations total,16,"Comedy, Romance",2
+Shane,1953,7.6,118.0,Won 1 Oscar. 8 wins & 13 nominations total,22,"Drama, Western",2
+It Happened One Night,1934,8.1,105.0,Won 5 Oscars. 14 wins & 2 nominations total,21,"Comedy, Romance",2
+A Streetcar Named Desire,1951,7.9,122.0,Won 4 Oscars. 22 wins & 15 nominations total,41,Drama,1
+Rear Window,1954,8.5,112.0,Nominated for 4 Oscars. 7 wins & 14 nominations total,25,"Drama, Mystery, Thriller",3
+Forrest Gump,1994,8.8,142.0,Won 6 Oscars. 51 wins & 74 nominations total,131,"Drama, Romance",2
+The Shawshank Redemption,1994,9.3,142.0,Nominated for 7 Oscars. 21 wins & 42 nominations total,70,Drama,1
+Fight Club,1999,8.8,139.0,Nominated for 1 Oscar. 12 wins & 38 nominations total,51,"Crime, Drama, Thriller",3
+Interstellar,2014,8.7,169.0,Won 1 Oscar. 45 wins & 148 nominations total,194,"Adventure, Drama, Sci-Fi",3
+The Matrix,1999,8.7,136.0,Won 4 Oscars. 42 wins & 52 nominations total,98,"Action, Sci-Fi",2
+Pulp Fiction,1994,8.8,154.0,Won 1 Oscar. 69 wins & 72 nominations total,142,"Crime, Drama",2
+GoodFellas,1990,8.7,145.0,Won 1 Oscar. 44 wins & 38 nominations total,83,"Biography, Crime, Drama",3
+The Dark Knight,2008,9.1,152.0,Won 2 Oscars. 163 wins & 165 nominations total,330,"Action, Crime, Drama",3
+Whiplash,2014,8.5,106.0,Won 3 Oscars. 100 wins & 144 nominations total,247,"Drama, Music",2
+Parasite,2019,8.5,132.0,Won 4 Oscars. 309 wins & 261 nominations total,574,"Drama, Thriller",2
+Joker,2019,8.3,122.0,Won 2 Oscars. 120 wins & 247 nominations total,369,"Crime, Drama, Thriller",3
+Black Swan,2010,8.0,108.0,Won 1 Oscar. 98 wins & 279 nominations total,378,"Drama, Thriller",2
+The Pianist,2003,8.5,150.0,Won 3 Oscars. 57 wins & 74 nominations total,134,"Biography, Drama, Music",3
+The Green Mile,1999,8.6,189.0,Nominated for 4 Oscars. 15 wins & 37 nominations total,56,"Crime, Drama, Fantasy",3
+Gladiator,2000,8.5,155.0,Won 5 Oscars. 61 wins & 105 nominations total,171,"Action, Adventure, Drama",3
+Memento,2001,8.4,113.0,Nominated for 2 Oscars. 57 wins & 59 nominations total,118,"Drama, Mystery, Thriller",3
+The Prestige,2006,8.5,130.0,Nominated for 2 Oscars. 6 wins & 44 nominations total,52,"Drama, Mystery, Sci-Fi",3
+The Departed,2006,8.5,151.0,Won 4 Oscars. 100 wins & 141 nominations total,245,"Crime, Drama, Thriller",3
+No Country for Old Men,2007,8.2,122.0,Won 4 Oscars. 165 wins & 139 nominations total,308,"Crime, Drama, Thriller",3
+Arrival,2016,7.9,116.0,Won 1 Oscar. 71 wins & 268 nominations total,340,"Drama, Mystery, Sci-Fi",3
+Blade Runner 2049,2017,8.0,164.0,Won 2 Oscars. 100 wins & 164 nominations total,266,"Action, Drama, Mystery",3
+Dune,1984,6.3,137.0,Nominated for 1 Oscar. 2 wins & 7 nominations total,10,"Action, Adventure, Sci-Fi",3
+Oppenheimer,2023,8.2,180.0,Won 7 Oscars. 370 wins & 378 nominations total,755,"Biography, Drama, History",3
+Barbie,2023,6.8,114.0,Won 1 Oscar. 215 wins & 436 nominations total,652,"Adventure, Comedy, Fantasy",3
+Lady Bird,2017,7.4,94.0,Nominated for 5 Oscars. 124 wins & 228 nominations total,357,"Comedy, Drama",2
+Little Women,2019,7.8,135.0,Won 1 Oscar. 73 wins & 229 nominations total,303,"Drama, Romance",2
+The Notebook,2004,7.8,123.0,12 wins & 10 nominations total,22,"Drama, Romance",2
+Manchester by the Sea,2016,7.8,137.0,Won 2 Oscars. 128 wins & 268 nominations total,398,Drama,1
+Good Will Hunting,1998,8.4,126.0,Won 2 Oscars. 25 wins & 61 nominations total,88,"Drama, Romance",2
+Toy Story,1995,8.3,81.0,Nominated for 3 Oscars. 29 wins & 24 nominations total,56,"Animation, Adventure, Comedy",3
+Coco,2017,8.4,105.0,Won 2 Oscars. 113 wins & 42 nominations total,157,"Animation, Adventure, Drama",3
+Up,2009,8.3,96.0,Won 2 Oscars. 81 wins & 88 nominations total,171,"Animation, Adventure, Comedy",3
+Finding Nemo,2003,8.2,100.0,Won 1 Oscar. 49 wins & 63 nominations total,113,"Animation, Adventure, Comedy",3
+The Ultimate 'WALL-E' Recap Cartoon,2022,,5.0,N/A,0,"Animation, Short",2
+Spirited Away,2003,8.6,124.0,Won 1 Oscar. 58 wins & 31 nominations total,90,"Animation, Adventure, Family",3
+Your Name,2015,8.9,22.0,N/A,0,Short,1
+City of God,2004,8.6,130.0,Nominated for 4 Oscars. 76 wins & 50 nominations total,130,"Crime, Drama",2
+Seven Samurai,1954,8.6,207.0,Nominated for 2 Oscars. 5 wins & 9 nominations total,16,"Action, Drama",2
+Oldboy,2003,8.3,120.0,46 wins & 28 nominations total,74,"Action, Drama, Mystery",3
+The Handmaiden,2016,8.1,145.0,Won 1 BAFTA Award69 wins & 104 nominations total,105,"Drama, Romance, Thriller",3
+Life Is Beautiful,1997,8.6,116.0,Won 3 Oscars. 72 wins & 52 nominations total,127,"Comedy, Drama, Romance",3
+Pan's Labyrinth,2007,8.2,118.0,Won 3 Oscars. 109 wins & 115 nominations total,227,"Drama, Fantasy, War",3
+Roma,2018,7.6,135.0,Won 3 Oscars. 255 wins & 229 nominations total,487,Drama,1
+Moonlight,2016,7.4,111.0,Won 3 Oscars. 235 wins & 310 nominations total,548,Drama,1
+Minari,2020,7.4,115.0,Won 1 Oscar. 120 wins & 241 nominations total,362,Drama,1
+Past Lives,2023,7.8,105.0,Nominated for 2 Oscars. 83 wins & 240 nominations total,325,"Drama, Romance",2
+Portrait of a Lady on Fire,2020,8.0,122.0,Nominated for 1 BAFTA Award. 59 wins & 155 nominations total,215,"Drama, Romance",2
+Amélie,2002,8.3,122.0,Nominated for 5 Oscars. 60 wins & 74 nominations total,139,"Comedy, Romance",2
+The Florida Project,2017,7.6,111.0,Nominated for 1 Oscar. 68 wins & 134 nominations total,203,Drama,1
+Call Me by Your Name,2017,7.8,132.0,Won 1 Oscar. 107 wins & 263 nominations total,371,"Drama, Romance",2
+The Truman Show,1998,8.2,103.0,Nominated for 3 Oscars. 42 wins & 69 nominations total,114,"Comedy, Drama",2

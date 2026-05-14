@@ -1,0 +1,141 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+FINAL R NOTEBOOK WITH CODE Karolina Szczepanik
+
+\texttt{r\ library(dplyr)\ library(tidyverse)\ library(estimatr)\ library(Rcpp)\ library(stargazer)\ library(ggplot2)\ library(gridExtra)}r
+
+\section{import movie dataset into R}\label{import-movie-dataset-into-r}
+
+movies \textless- read.csv(``movies\_final.csv'')
+
+\section{graph 1:compares awards and IMDb
+ratings}\label{graph-1compares-awards-and-imdb-ratings}
+
+g1 \textless- ggplot(movies, aes(Awards\_Count, imdbRating)) +
+geom\_point() + labs(title = ``Awards vs IMDb Rating'', x = ``Awards'',
+y = ``IMDb Rating'')
+
+\section{graph 2: compares runtime and IMDb
+ratings}\label{graph-2-compares-runtime-and-imdb-ratings}
+
+g2 \textless- ggplot(movies, aes(Runtime, imdbRating)) + geom\_point() +
+labs(title = ``Runtime vs IMDb Rating'', x = ``Runtime'', y = ``IMDb
+Rating'')
+
+\#puts both graphs together grid.arrange(g1, g2, ncol = 1)
+
+\section{graph 3: shows where most IMDb ratings fall in the
+dataset}\label{graph-3-shows-where-most-imdb-ratings-fall-in-the-dataset}
+
+ggplot(movies, aes(imdbRating)) + geom\_density(fill = ``dark grey'',
+color = ``black'', alpha = 0.7) + labs( title = ``Distribution of IMDb
+Ratings'', x = ``IMDb Rating'', y = ``Frequency'' )
+
+\section{regression 1: full dataset with more than 3
+variables}\label{regression-1-full-dataset-with-more-than-3-variables}
+
+model1 \textless- lm(imdbRating \textasciitilde{} Runtime +
+Awards\_Count + Genre\_Count, data = movies) summary(model1)
+
+\section{regression 2: filtered dataset, only movies longer than 120
+minutes}\label{regression-2-filtered-dataset-only-movies-longer-than-120-minutes}
+
+long\_movies \textless- movies{[}movies\$Runtime \textgreater{} 120, {]}
+
+model2 \textless- lm(imdbRating \textasciitilde{} Awards\_Count +
+Genre\_Count, data = long\_movies) summary(model2)
+
+\section{regression 3: preferred
+model}\label{regression-3-preferred-model}
+
+model3 \textless- lm(imdbRating \textasciitilde{} Runtime +
+Awards\_Count + Genre\_Count, data = movies) summary(model3)
+
+Regression Interpretation:
+
+Regression 1 --\textgreater{} looks at the relationship between IMDb
+ratings, runtime, awards count, and genre count across the full movie
+dataset. Runtime had a small positive relationship with IMDb ratings,
+meaning longer movies were slightly associated with higher ratings.
+
+Regression 2 --\textgreater{} only focuses on movies longer than 120
+minutes. This was done to see if the relationships changed for longer
+films. In this model, awards count and genre count did not show a strong
+relationship with IMDb ratings.
+
+Regression 3 --\textgreater{} This is my preferred model because it uses
+the full dataset and includes multiple movie characteristics together.
+Overall, the results suggest that runtime may have a stronger
+relationship with IMDb ratings than awards count or genre count in this
+dataset.
+
+These regressions show correlations between variables, not causation.
+
+\end{document}
